@@ -8,7 +8,7 @@ def main():
 
 @app.route("/hi")
 def hello():
-    return 'This is the new routing menthod'
+    return 'This is the new routing menthod for validation'
 
 if __name__ == "__main__":
     app.run()
